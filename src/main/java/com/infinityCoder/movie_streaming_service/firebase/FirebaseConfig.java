@@ -10,7 +10,7 @@ import java.io.IOException;
 
 public class FirebaseConfig {
 
-    String serviceAccountUrl="streamingapp-56ff3-firebase-adminsdk-aebof-15f3374194.json";
+    String serviceAccountUrl="streamingapp-56ff3-firebase-adminsdk-aebof-5496039169.json";
     @PostConstruct
     public void initialize(){
         try{

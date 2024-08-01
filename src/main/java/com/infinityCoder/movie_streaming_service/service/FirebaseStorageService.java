@@ -16,7 +16,7 @@ public class FirebaseStorageService {
     private final String bucketName; // Name of your bucket
 
     public FirebaseStorageService() throws IOException {
-        ClassPathResource resource = new ClassPathResource("streamingapp-56ff3-firebase-adminsdk-aebof-15f3374194.json");
+        ClassPathResource resource = new ClassPathResource("streamingapp-56ff3-firebase-adminsdk-aebof-5496039169.json");
         GoogleCredentials credentials = GoogleCredentials.fromStream(resource.getInputStream());
         this.storage = StorageOptions.newBuilder().setCredentials(credentials).build().getService();
         this.bucketName = "streamingapp-56ff3.appspot.com"; // replace with your bucket name
